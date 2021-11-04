@@ -23,9 +23,9 @@ function App() {
         <Route path="/projects">
           <Projects URL={URL} />
         </Route>
-        <About path="/about">
+        <Route path="/about">
           <About URL={URL} />
-        </About>
+        </Route>
       </Switch>
       <Footer />
     </div>
