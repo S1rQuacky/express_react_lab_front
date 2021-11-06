@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import { Route, Switch } from "react-router-dom";
 
 //Import pages
-import Home from './components/Header';
+import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 
